@@ -1,0 +1,11 @@
+{
+  "name": "heavy-canal-digger",
+  "version": "0.5.3",
+  "title": "Canal Digger",
+  "author": "artel & Codex",
+  "factorio_version": "2.0",
+  "description": "Land-only tracked canal digger unlocked with railway. Two native visual modes, soil cargo and increased digging fuel use. Excavates 5.75-tile water channels with bank-safe steering and removes floating ground decoratives from the water.",
+  "dependencies": [
+    "base >= 2.0.0"
+  ]
+}

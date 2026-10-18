@@ -1,0 +1,7 @@
+*.blend
+*.blend[0-9]*
+*.usdz
+*.zip
+__pycache__/
+.DS_Store
+Thumbs.db

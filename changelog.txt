@@ -1,0 +1,43 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.5.3
+Date: 2026-10-18
+  Changes:
+    - Reduced nominal channel width from 6 to 5.75 tiles.
+  Fixes:
+    - Removed floating ground decoratives from newly excavated water.
+    - Cleaned existing water-anchored decoratives near machines on upgrade.
+    - Kept dry-land decoratives, trees, rocks and buildings intact.
+---------------------------------------------------------------------------------------------------
+Version: 0.5.2
+Date: 2026-10-18
+  Changes:
+    - Reduced channel width from 12 to 6 tiles.
+  Fixes:
+    - Uses the actual rotated chassis footprint for bank clearance.
+    - Rejects unsafe turns without permanently disabling dry-land movement.
+    - Defers excavation under the tracks without blocking the whole work queue.
+---------------------------------------------------------------------------------------------------
+Version: 0.5.1
+Date: 2026-10-18
+  Fixes:
+    - Corrected overexposed lighting using the final settings from other vehicles.
+    - Added native sprites for placement previews, ghosts and both vehicle modes.
+    - Restored visible rotation and parked-machine rotation controls.
+    - Restored water collision: no driving over natural or excavated water.
+    - Protected the vehicle's own footprint from excavation.
+  Changes:
+    - Converts ground into a 12-tile-wide real-water corridor for Cargo Ships.
+    - Working mode turns five times more slowly than travel mode.
+    - Switching modes preserves complete item stacks, burner energy and occupants.
+---------------------------------------------------------------------------------------------------
+Version: 0.5.0
+Date: 2026-10-18
+  Features:
+    - Separate Travel and Work visuals from the supplied USDZ models.
+    - Excavation at the cutting wheel during forward and reverse travel.
+    - Animated working wheel, slow work mode and additional digging fuel cost.
+    - Soil cargo with landfill conversion and safe stops for fuel, cargo and obstacles.
+    - Railway research unlock and a new recipe balanced for red and green science.
+  Changes:
+    - Replaced the generic demolition interface with a vehicle mode switch and soil counter.
+    - Retained the original entity name for existing vehicles.
